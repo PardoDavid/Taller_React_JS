@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+ 
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+}
+ 
+  h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+.formreg{  
+    margin-top: -30px;
+    font-size: 12px;
+    width: 100%;         
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 25px;
+}
+.form-control{
+    font-size: 10px;
+}
+.check{
+    margin-top: -30px;
+    text-align: center;   
+    font-size: 24px;         
+}
+.checkbox{
+    font-size: 24px;
+}
+.acepto{        
+    color: #000;     
+    font-size: 10px;       
+}
+
+.botonreg{
+    margin-top: -50px;
+    text-align: center;
+}
+.butreg{            
+    width: 200px;
+    background-color: rgb(39, 39, 39);
+    color: #efefef;
+    margin-top: -100px;
+    font-size: 10px;
+    font-family: Marcellus;
+    border-radius: 5px;
+}
+#ti{
+    font-size: 40px;
+    font-family: Playfair Display;
+}
+#campotip{
+    width: 30%;
+    font-size: 20px;
+}
