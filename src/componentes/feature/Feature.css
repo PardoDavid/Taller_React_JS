@@ -1,0 +1,21 @@
+#feature{
+    background-image: url("bg-features.png");
+    color: var(--blanco);
+    padding: 1.5rem 0;
+}
+
+#feature h2{
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.feature-row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}

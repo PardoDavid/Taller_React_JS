@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+
+
+	font-family: "Roboto";
+	font-size: 15px;
+    font-family: 'Marcellus';
+}
+
+.logo {
+	z-index: 3;
+	margin-top: -26rem;
+	margin-left: 1.02rem;
+    width: 5rem;
+   
+}
+
+.im4{
+    width: 10px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 17.9%;
+	background-color: #434343;
+	position: absolute;
+	height: 101%;
+	overflow: auto;
+	margin-top: -5.5rem;
+    max-width: 17.9%;
+}
+
+.corot {
+	color: #fff;
+	font-family: 'Marcellus';
+	margin-left: 8rem;
+	margin-top: -20rem;
+    font-size: 15px;
+}
+.corot h2 {
+	color: #fff;
+	font-family: 'Marcellus';
+	margin-left: 4rem;
+	margin-top: -35rem;
+    font-size: 15px;
+}
+
+li a {
+	display: block;
+	color: #fff;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	margin-top: -2.1rem;
+    margin-left: 2rem;
+}
+
+.cerrar i {
+	margin-top: 30rem;
+	margin-left: 4rem;
+	font-size: 25px;
+}
+
+.cerrar a {
+	font-size: 15px;
+	color: #EFEFEF;
+	margin-left: 0.8rem;
+	text-decoration: none;
+    margin-top: 18rem;
+}
+
+   
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+ul i {
+	font-size: 25px;
+	color: #fff;
+	margin-top: 15%;
+	margin-left: 2rem;
+}

@@ -1,0 +1,16 @@
+#banner{
+    background-image: url("slide1.jpg");
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+#banner h4{
+    color: var(--blanco);
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 55%;
+    padding: 2rem;
+    font-size: 2rem;
+    margin-bottom: 0.01rem;
+}
