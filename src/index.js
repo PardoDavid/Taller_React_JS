@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Registrar from './components/Registrar/registrar/registrar';
-import Login from './components/login/login';
-
-import './index.css';
+import {BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
+import Registrar from './pages/Registrar/registrar';
+import Login from './pages/Login/login';
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>                 
-    <Registrar/>
-    <Login/>
+  <React.StrictMode>  
+    <Route path='/' element={<Login/>}/>       
+    <Route path='/' element={<Registrar/>}/>       
+    
   </React.StrictMode>
 );
 

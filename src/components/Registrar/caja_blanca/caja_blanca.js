@@ -1,7 +1,7 @@
 import Formulario from "../formulario/formulario";
 import "./caja_blanca.css"    
 
-function caja_blanca(){    
+function Caja_blanca(){    
 
     return(
         
@@ -12,4 +12,4 @@ function caja_blanca(){
         
     );
 }
-export default caja_blanca;
+export default Caja_blanca;

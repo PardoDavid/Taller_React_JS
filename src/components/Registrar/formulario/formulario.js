@@ -105,7 +105,7 @@ function formulario(){
             </div>
             </div>
         </div>
-        <div class="botonreg">   
+        <div class="botonreg">               
             <a href="dashboard.html"><button class="butreg">Ingresar</button></a>                        
     </div>
     </form>
