@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 90%;
+    max-height: 100%;
     background-color: #000;
 }
 
@@ -13,7 +13,7 @@
 .pie-pagina .grupo-1 .box figure {
 
     width: 100%;
-    height: 90%;
+    height: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,10 +32,10 @@
 
     color: #efefef;
     margin-left: 1em;
-    margin-bottom: 15px;
+    margin-bottom: 39px;
     font-family: 'Playfair Display';
     font-size: 22px;
-    margin-right: 75rem;
+    margin-right: 76rem;
     text-align: center;
     margin-top: 4.5rem;
  
@@ -44,22 +44,23 @@
 .pie-pagina .grupo-1 .box2 p {
 
     color: #efefef;
-    margin-left: 5rem;
+    margin-left: 10rem;
     font-family: 'Playfair Display';
     font-size: 22px;
-    margin-top: -8rem;
-    margin-bottom: -2rem;
+    margin-top: -11rem;
+    margin-bottom: -0.7rem;
 
 
 }
 
 .pie-pagina .grupo-1 .box3 p {
     color: #efefef;
-    margin-left: 60em;
+    margin-left: 65em;
   
     font-family: 'Playfair Display';
     font-size: 22px;
-    margin-top:-7.5rem;
+    margin-top:-10.2rem;
+
 
 }
 
@@ -71,4 +72,5 @@
     color: #fff;
     text-align: center;
     margin-left: 5rem;
+    margin-bottom: 28px;
 }

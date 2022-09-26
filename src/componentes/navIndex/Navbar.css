@@ -1,0 +1,45 @@
+.logo3{
+    padding: 1rem;
+}
+.logo3 img{
+    width: 100%;
+    max-width: 180px;       
+}
+.logo3 i{ 
+    display: none;
+} 
+nav a:hover{
+    background-color: #0B3860;
+    width: 100%;
+}
+
+.menu{
+    background-color: var(--negro2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-button{
+    background-color:var(--azuloscuro);
+}  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro2);
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+  
+}
+
+.item{
+padding: 1rem;
+}
+nav a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+.logo img{
+    height: 3rem;
+}

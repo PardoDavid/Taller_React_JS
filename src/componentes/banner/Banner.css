@@ -6,11 +6,11 @@
     align-items: flex-end;
 }
 
-#banner h4{
+#banner h7{
     color: var(--blanco);
     background-color: rgba(0, 0, 0, 0.4);
     width: 55%;
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 0.01rem;
 }

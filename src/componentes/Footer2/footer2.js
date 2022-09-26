@@ -23,7 +23,7 @@ function FooterSecundario(){
             <div class="box2">
                 <br/>
                
-                <p>  <i class="fa-solid fa-location-dot"></i>     Avenida Carrera 8, #12A-42, Bogotá DC, Colombia </p>
+                <p>  <i class="fa-solid fa-location-dot"></i> Avenida Carrera 8, #12A-42, Bogotá DC, Colombia </p>
                 <br></br>
                 <br></br>
                 <p>  <i class="fa-solid fa-phone"></i> +57 601 4567899</p>

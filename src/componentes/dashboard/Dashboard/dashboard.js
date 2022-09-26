@@ -36,10 +36,10 @@ function Dashboard(){
             <div>
                 <input type="radio" id="" name="contact" value="email"></input>
                 <label for="contactChoice1">Mujer</label>
-
+             
                 <input type="radio" id="" name="contact" value="phone"></input>
                 <label for="contactChoice2">Hombre</label>
-
+             
                 <input type="radio" id="" name="contact" value="mail"></input>
                 <label for="contactChoice3">otro</label>
             </div>

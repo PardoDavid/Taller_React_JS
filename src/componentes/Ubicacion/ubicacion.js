@@ -17,6 +17,7 @@ referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="direc2">
         <h2>+57 601 4567899</h2>
     </div>
+    <br></br>
     </section>
     
     );

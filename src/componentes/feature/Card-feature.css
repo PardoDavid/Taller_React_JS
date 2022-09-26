@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .feature-box{
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 5px;
-    width: 10rem;
+    width: 15rem;
 }
 
 .feature-box i{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -18,7 +20,8 @@
 }
 
 .box-dark{
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 .box-blue{

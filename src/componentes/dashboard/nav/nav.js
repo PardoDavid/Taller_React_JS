@@ -10,11 +10,11 @@ function Nav(){
         <img src={fondo}/>
         </div>
         <i class="fa-solid fa-bed"></i>
-        <li><a  href="#home">Habitaciones</a></li>
+        <li><a href="">Habitaciones</a></li>
         <i class="fa-solid fa-bed"></i>
-        <li><a href="FormHabitacion.html">Registrar Habitaciones</a></li>
+        <li><a href="">Registrar Habitaciones</a></li>
         <i class="fa-solid fa-pencil"></i>
-        <li><a href="#news">Editar Perfil</a></li>
+        <li><a href="">Editar Perfil</a></li>
         <div class="logo">
             <img src={logo}/>
             </div>
