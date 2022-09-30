@@ -1,10 +1,10 @@
 import "./footer2.css"
 function FooterSecundario(){
     return(
-        <section class="footer">
-        <footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
+        <section className="footer">
+        <footer className="pie-pagina">
+        <div className="grupo-1">
+            <div className="box">
                 <figure>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -12,27 +12,26 @@ function FooterSecundario(){
                         totam eligendi cumque veritatis magnam rem, omnis magni veniam laboriosam </p>
 
                 </figure>
-                <div class="red-social">
+                <div className="red-social">
 
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" className="fa fa-instagram"></a>
+                    <a href="#" className="fa fa-facebook"></a>
+                    <a href="#" className="fa fa-twitter"></a>
                 </div>
 
             </div>
-            <div class="box2">
+            <div className="box2">
                 <br/>
                
-                <p>  <i class="fa-solid fa-location-dot"></i> Avenida Carrera 8, #12A-42, Bogotá DC, Colombia </p>
-                <br></br>
-                <br></br>
-                <p>  <i class="fa-solid fa-phone"></i> +57 601 4567899</p>
+                <p>  <i className="fa-solid fa-location-dot"></i> Avenida Carrera 8, #12A-42, Bogotá DC, Colombia </p>
+               
+                
+                <p>  <i className="fa-solid fa-phone"></i> +57 601 4567899</p>
             </div>
-            <div class="box3">
+            <div className="box3">
                 <br></br>
                 <p>Politicas de privacidad</p>
-                <br></br>
-                <br></br>
+             
               
                 <p>Politicas de privacidad</p>
             </div>
@@ -40,7 +39,7 @@ function FooterSecundario(){
        
 
     </footer>
-    </section>
+    </section>   
     );
 }
 export default FooterSecundario;

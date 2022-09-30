@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@media screen and (min-width: 1024px){
 #feature{
     background-image: url("bg-features.png");
     color: var(--blanco);
@@ -21,4 +22,34 @@
     justify-content: space-around;
     margin-top: 1rem;
     
+}
+}
+@media screen and (min-width: 320px)  and (max-width:1023px){
+    #feature{
+        background-image: url("bg-features.png");
+        color: var(--blanco);
+        padding: 1.5rem 0;
+    }
+    
+    #feature h2{
+        text-align: center;
+        font-size: 2rem;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 0.5rem;
+        font-weight: 400;
+        text-shadow: 3px 3px 3px #000000;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .feature-row{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }

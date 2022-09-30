@@ -5,25 +5,25 @@ import "https://kit.fontawesome.com/6131ecdde6.js";
 function Footer(){
     return(
        
-        <footer class="pie-pagina1">
-        <div class="grupo-2">
+        <footer className="pie-pagina1">
+        <div className="grupo-2">
             <div id="van">
-                <h2 class="pri">NUESTROS CLIENTES DICEN... </h2>
-                <div class="van2">
-                    <div class="color3">
-                        <div class="im5">
+                <h2 className="pri">NUESTROS CLIENTES DICEN... </h2>
+                <div className="van2">
+                    <div className="color3">
+                        <div className="im5">
                             <img  src={man} />
                         </div>
-                        <div class="nom">
+                        <div className="nom">
                             <strong>Diego rodriguez</strong>
                         </div>
                         <img src={fondo}/>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div className="stars">
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="far fa-star"></i>
                      </div>
                     
                     <div>
@@ -32,21 +32,21 @@ function Footer(){
                     </div>
                     </div>  
                     </div>  
-                    <div class="color4">
-                        <div class="im5">
+                    <div className="color4">
+                        <div className="im5">
                         <img  src={man} />
                         </div>
-                        <div class="nom1">
+                        <div className="nom1">
                             <strong>Diego rodriguez</strong>
                         </div>
                         <img src={fondo}/>
                         
-                        <div class="stars1">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div className="stars1">
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="far fa-star"></i>
                      </div>
                     
                     <div>
@@ -55,21 +55,21 @@ function Footer(){
                     </div>
                     </div>   
                     </div>
-                    <div class="color5">
-                        <div class="im5">
+                    <div className="color5">
+                        <div className="im5">
                         <img  src={man} />
                         </div>
-                        <div class="nom1">
+                        <div className="nom1">
                             <strong>Diego rodriguez</strong>
                         </div>
                         <img src={fondo}/>
                         
-                        <div class="stars1">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div className="stars1">
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
+                            <i className="far fa-star"></i>
                      </div>
                     
                     <div>
@@ -78,7 +78,9 @@ function Footer(){
                     </div>
                     </div>   
                     </div>
+                    
     </footer>
+
    
 
     );

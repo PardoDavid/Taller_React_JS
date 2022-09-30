@@ -1,3 +1,4 @@
+
 .logo3{
     padding: 1rem;
 }
@@ -18,6 +19,7 @@ nav a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
+    max-width: 100%;
 }
 
 .navbar-button{
@@ -43,3 +45,69 @@ nav a{
 .logo img{
     height: 3rem;
 }
+
+/*@media screen and (min-width: 320px)  and (max-width:1023px){
+    .logo3{
+        background-color: var(--negro2);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    
+
+    .logo3 img{
+        width: 40%;
+        max-width: 200px;   
+    }
+    .logo3 i{
+        color: var(--blanco);
+        font-size: 2rem;
+    }
+    
+    .menu{
+        background-color: rgba(1, 10, 52, 0.735);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        max-width: 100%;
+    
+
+    }
+    .menu-hr{
+        width: 80%;
+        background-color: var(--blanco);
+    }
+    .item{
+    padding: 1rem;
+    }
+    nav a{
+        color: var(--blanco);
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover{
+        background-color: #0B3860;
+        width: 100%;
+    }
+    .navbar-button{
+        background-color:transparent;
+        border: none;
+        border-radius: 3px;
+        font-size: 1em;
+        padding: 0.5rem;
+        font-family: 'Marcellus', serif;
+        color: var(--blanco);
+    }
+    MENU HAMBURGUESA
+
+    .open {
+        transform: translateY(-100em);
+    }
+
+    .outside {
+        transform: translateX(0);
+    }
+    }
+ */

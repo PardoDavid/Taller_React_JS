@@ -1,22 +1,31 @@
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  } from "react-router-dom";
 import Hotelia from "./Hotelia horizontal blanco.svg"
 import "./Navbar.css"
 function Navbar(){
     
     return(
+       
         <section>
         <nav>
-        <div class="logo3">
+        <div className="logo3">
             <img src={Hotelia}/>
-            <i class="fa-solid fa-bars hamburguer"></i>
+            <i className="fa-solid fa-bars hamburguer"></i>
         </div>
 
-        <div class="menu outside">
-            <a href="index.html" class="item">Inicio</a>
-            <a href="ubicanos.html" class="item">Ubícanos</a>
-            <a href="opiniones.html" class="item">Opiniones</a>
-            <hr class="menu-hr" noshade=""></hr>
-            <a href="login.html" class="item"><button class="navbar-button"><i class="fa-solid fa-user"></i> Iniciar
-                    Sesión</button></a>
+        <div className="menu outside">
+            <a href="index.html" className="item">Inicio</a>
+            <a href="ubicanos.html" className="item">Ubícanos</a>
+            <a href="opiniones.html" className="item">Opiniones</a>
+            <hr className="menu-hr" noshade=""></hr>
+            <Link to="/login">
+           <button className="navbar-button"><i className="fa-solid fa-user"></i> Iniciar
+                    Sesión</button></Link>
+
         </div>
     </nav>
     </section>
