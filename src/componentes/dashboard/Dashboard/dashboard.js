@@ -1,5 +1,6 @@
 import persona from "./joelvalve-JFE0vXN95o4-unsplash.jpg";
 import simbolo from "./simbolo.PNG";
+
 import "./dashboard.css"
 import "https://kit.fontawesome.com/6131ecdde6.js";
 function Dashboard(){
@@ -78,7 +79,7 @@ function Dashboard(){
 <br/>
 
 
-                <input className="btn__reset" type="reset" value="Cambiar"></input>
+                <input className="btn__reset" type="reset" value="Actualizar"></input>
        
         </form>
 

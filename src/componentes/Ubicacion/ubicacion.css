@@ -74,7 +74,7 @@ body {
         justify-content: center;
         width: 80%;
         height: 480px;
-        margin-left: 6rem;
+        margin-left: 3.5rem;
         display: flex;
         
         justify-content: center;
@@ -88,21 +88,21 @@ body {
     .direc {
         display: flex;
         justify-content: center;
-        font-size: 23px;
+        font-size: 18px;
         margin-top: 2rem;
         font-family: 'Marcellus';
         border-bottom: 3px solid;
         border-image: linear-gradient(to left, #337AB7 0%, #337AB7 100%) 1;
         margin-bottom: 10%;
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
         text-align: center;
     }
     
     .direc2 {
         display: flex;
         justify-content: center;
-        font-size: 23px;
+        font-size: 18px;
         margin-top: -5rem;
         font-family: 'Marcellus';
        

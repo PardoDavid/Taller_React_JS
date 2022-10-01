@@ -172,7 +172,7 @@
     
     .pie-pagina1 .grupo-2 {
         width: 100%;
-        max-width: 1200px;
+        max-width: 100%;
         margin: auto;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
@@ -184,7 +184,7 @@
         display: flex;
         justify-content: center;
         color: #fff;
-        font-size: 40px;
+        font-size: 30px;
         align-items: center;
     }
     
@@ -193,8 +193,8 @@
         height: 150px;
         display: flex;
         justify-content: flex-start;
-        margin-top: 2rem;
-        margin-left: 15rem;
+        margin-top: 3rem;
+        margin-left: 10rem;
         position: relative;
         z-index: 3;
       
@@ -207,7 +207,7 @@
         display: flex;
         justify-content: flex-start;
         margin-top: 1rem;
-        margin-left: 15rem;
+        margin-left: 10rem;
         position: relative;
     
     
@@ -219,7 +219,7 @@
         display: flex;
         justify-content: flex-start;
         margin-top: 1.3rem;
-        margin-left: 15rem;
+        margin-left: 10rem;
         position: relative;
     
     

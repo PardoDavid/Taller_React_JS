@@ -1,3 +1,5 @@
+@media screen and (min-width:1024px) {
+    
 
 .logo3{
     padding: 1rem;
@@ -45,8 +47,8 @@ nav a{
 .logo img{
     height: 3rem;
 }
-
-/*@media screen and (min-width: 320px)  and (max-width:1023px){
+}
+@media screen and (min-width: 320px)  and (max-width:1023px){
     .logo3{
         background-color: var(--negro2);
         display: flex;
@@ -57,12 +59,13 @@ nav a{
     
 
     .logo3 img{
-        width: 40%;
-        max-width: 200px;   
+        width: 20%;
+        max-width: 20%;   
     }
     .logo3 i{
         color: var(--blanco);
         font-size: 2rem;
+        margin-left: -1rem;
     }
     
     .menu{
@@ -110,4 +113,4 @@ nav a{
         transform: translateX(0);
     }
     }
- */
+ 

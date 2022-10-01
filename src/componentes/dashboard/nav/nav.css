@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media screen and (min-width:1024px) {
 
 body{
 	margin: 0;
@@ -29,9 +30,9 @@ ul {
 	width: 17.2%;
 	background-color: #434343;
 	position: absolute;
-	height: 50rem;
+	height: 52rem;
 	overflow: auto;
-	margin-top: 0.1rem;
+	margin-top: -2rem;
     min-width: 18%;
 }
 
@@ -87,4 +88,73 @@ ul i {
 	color: #fff;
 	margin-top: 15%;
 	margin-left: 2rem;
+}
+}
+@media screen and (min-width:320px) and (max-width:1023px) {
+	.logo {
+		z-index: 3;
+		margin-top: -32rem;
+		margin-left: 2rem;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 8%;
+		background-color: #434343;
+		position: fixed;
+		height: 89%;
+		overflow: auto;
+		margin-top: -2rem;
+	}
+	
+	.corot {
+		color: #fff;
+		font-family: 'Marcellus';
+		margin-left: 10rem;
+		margin-top: -45rem;
+	}
+	
+	li a {
+		display: none;
+		color: #fff;
+		padding: 8px 16px;
+		text-decoration: none;
+		font-size: 23px;
+		text-align: center;
+		margin-top: -2.1rem;
+	}
+	
+	.cerrar i {
+		margin-top: 43rem;
+		margin-left: 1rem;
+		font-size: 25px;
+	}
+	
+	.cerrar a {
+		font-size: 18px;
+		color: #EFEFEF;
+		margin-left: 5rem;
+		text-decoration: none;
+		display: none;
+	
+	
+	
+	}
+	
+	
+	li a:hover:not(.active) {
+		background-color: #555;
+		color: white;
+	}
+	
+	ul i {
+		font-size: 25px;
+		color: #fff;
+		margin-top: 8%;
+		margin-left: 0.6rem;
+	}
+	
+	
 }
