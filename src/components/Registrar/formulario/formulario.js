@@ -1,89 +1,96 @@
+import { propTypes } from "react-bootstrap/esm/Image";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  } from "react-router-dom";
 import "./formulario.css"
 
-function formulario(){
+function formulario(props){
     return(
         
-        <form class="formreg">            
-        <div class="form-row mb-2">
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Tipo de Documento </label><br/>
-                <select class="form-control" name="tipodoc"  placeholder="Escoja una opción">
+        <form className="formreg">            
+        <div className="form-row mb-2">
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.td}</label><br/>
+                <select className="form-control" name="tipodoc"  placeholder="Escoja una opción">
                     <option value="cc">CC</option>
                     <option value="ti">TI</option>
                     <option value="otro">Otro</option>
                   </select>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Número de Documento</label>
-                <input type="number" class="form-control"></input>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.nd}</label>
+                <input type="number" className="form-control"></input>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Nombres </label>
-                <input type="text" class="form-control"></input>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.nom}</label>
+                <input type="text" className="form-control"></input>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Apellidos</label>
-                <input type="text" class="form-control"></input>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.ape}</label>
+                <input type="text" className="form-control"></input>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Fecha Nacimiento</label>
-                <input type="date" class="form-control"></input>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.fn}</label>
+                <input type="date" className="form-control"></input>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Género</label><br/>
-                <label class="font-weight-bold">Hombre</label>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.gen}</label><br/>
+                <label className="font-weight-bold">Hombre</label>
                 <input type="radio" name="genero" value="1"></input>
-                <label class="font-weight-bold">Mujer</label>
+                <label className="font-weight-bold">Mujer</label>
                 <input type="radio" name="genero" value="2"></input>
-                <label class="font-weight-bold">Otro</label>
+                <label className="font-weight-bold">Otro</label>
                 <input type="radio" name="genero" value="3"></input>
             </div>
-            <div class="form-group col-md-6">
-            <label class="font-weight-bold">Email</label>
+            <div className="form-group col-md-6">
+            <label className="font-weight-bold">{props.email}</label>
             <input type="email" class="form-control"></input>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Teléfono de Contacto</label>
-                <input type="number" class="form-control"/>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.tel}</label>
+                <input type="number" className="form-control"/>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">País de origen </label><br/>
-                <select class="form-control" name="pais" placeholder="Escoja una opción">
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.pais}</label><br/>
+                <select className="form-control" name="pais" placeholder="Escoja una opción">
                     <option value="cc">Colombia</option>
                     <option value="ti">Venezuela</option>
                     <option value="otro">Chile</option>
                 </select>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Foto</label>
-                <input type="file" class="form-control"></input>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.foto}</label>
+                <input type="file" className="form-control"></input>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Contraseña</label>
-                <input type="password" class="form-control"></input>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.con}</label>
+                <input type="password" className="form-control"></input>
             </div>
-            <div class="form-group col-md-6">
-                <label class="font-weight-bold">Confirmar Contraseña</label>
-                <input type="password" class="form-control"></input>
+            <div className="form-group col-md-6">
+                <label className="font-weight-bold">{props.con}</label>
+                <input type="password" className="form-control"></input>
             </div>
             </div>
                             
-            <div class="form-group mb-5">
-            <div class="check">
-             <input class="checkbox" type="checkbox" data-toggle="modal" data-target="#Terminos"></input>                    
-                <label class="acepto">Acepto Terminos y Condiciones</label>
+            <div className="form-group mb-5">
+            <div className="check">
+             <input className="checkbox" type="checkbox" data-toggle="modal" data-target="#Terminos"></input>                    
+                <label className="acepto">{props.ter}</label>
             </div>
         </div>
-        <div class="modal fade" id="Terminos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Terminos y Condiciones</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+        <div className="modal fade" id="Terminos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal-content">
+            <div className="modal-header">
+                <h5 className="modal-title" id="exampleModalLongTitle">Terminos y Condiciones</h5>
+                <button type="button" className="close" data-dismiss="modal" aria-label="Close" >
                 <span aria-hidden="true">&times;</span>
           </button>
              </div>
-            <div class="modal-body">
+            <div className="modal-body">
             <p>Estos Terminos de Servicio reflejan la forma<br/>
                 de trabajar de Google como empresa, las<br/>
                 leyes por las que nos regimos y determinados<br/>
@@ -99,14 +106,14 @@ function formulario(){
                 Lo que esperamos de ti, donde se establecen<br/>
                 ciertas reglas para utilizar nuestros servicios.</p>            
             </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+            <div className="modal-footer">
+            <button type="button" className="btn btn-secondary" data-dismiss="modal">Aceptar</button>
                 </div>
             </div>
             </div>
         </div>
-        <div class="botonreg">               
-            <a href="dashboard.html"><button class="butreg">Ingresar</button></a>                        
+        <div className="botonreg">               
+            <Link to="/login"><button className="butreg">Ingresar</button></Link>
     </div>
     </form>
     );

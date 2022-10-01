@@ -6,30 +6,30 @@ import "./dashboard.css"
 function Dashboard(){
     return (
         
-        <div class="container">
+        <div className="container">
        
-        <div class="form__top">    
+        <div className="form__top">    
             <h2>Bienvenido, Angie Vargas</h2>
         </div>
-        <div class="im">
+        <div className="im">
             <img src={persona} alt=""/>
         </div>
         <br/>
-        <div class="im2">
+        <div className="im2">
             <img src={simbolo} alt=""/>
         </div>
 
-        <input class="btn__reset2" type="reset" value="Cambiar"></input>
+        <input className="btn__reset2" type="reset" value="Cambiar"></input>
         <br/>
         <br/>
 
-        <form class="form__reg" action="">
+        <form className="form__reg" action="">
             Tipo de Documento
-            <input class="input" type="text" required autofocus></input>
+            <input className="input" type="text" required autofocus></input>
             Nombres
-            <input class="input" type="email" placeholder="Nombres" required></input>
+            <input className="input" type="email" placeholder="Nombres" required></input>
             Fecha de Nacimiento
-            <input class="input" type="date" required></input>
+            <input className="input" type="date" required></input>
             Genero
             <br/>
             <br/>
@@ -45,12 +45,12 @@ function Dashboard(){
             </div>
    
             Email
-            <input class="input" type="email" placeholder="" required></input>
+            <input className="input" type="email" placeholder="" required></input>
 
-            <input class="btn__reset1" type="reset" value="Actualizar"></input>
+            <input className="btn__reset1" type="reset" value="Actualizar"></input>
   
             <br/>Contraseña
-            <input class="input" type="text" required></input>
+            <input className="input" type="text" required></input>
             
             <form class="form__reg2" action="">
             Numero de Documento

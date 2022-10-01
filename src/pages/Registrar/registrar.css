@@ -16,6 +16,14 @@
 *{
     margin:0;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;    
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Marcellus', serif;
+}
 @media screen and (min-width:320px ){
   .fondoreg{
     display: flex;               
@@ -28,14 +36,6 @@
 }
 
 
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;    
-}
- 
-  h1,h2,h3,h4,h5{
-    font-family: 'Marcellus', serif;
-}
 @media screen and (min-width:1024px ){
 .fondoreg{
     display: flex;               

@@ -124,6 +124,17 @@ body{
     font-size: 20px;
 }
 .modal-header{
-    background-color: darkblue;
+    background-color: #0d4070e6
+}
+.modal-title{
+color: #000;
+font-weight: bold;
+}
+.modal-footer{
+    background-color: #0d4070e6
+}
+.btn-secondary{
+    background-color: black;
+    color: #fff    
 }
 }

@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route   
+} from "react-router-dom";
 import Registrar from './pages/Registrar/registrar';
 import Login from './pages/Login/login';
 
@@ -9,9 +13,14 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>  
-    <Route path='/' element={<Login/>}/>       
-    <Route path='/' element={<Registrar/>}/>       
-    
+  <Router>           
+                <Routes>
+                    <Route path="/registrar" element={<Registrar />}>                                   
+                    </Route>      
+                    <Route path="/login" element={<Login /> }>                                                    
+                    </Route>
+                </Routes>                    
+        </Router>
   </React.StrictMode>
 );
 
