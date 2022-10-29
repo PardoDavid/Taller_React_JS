@@ -11,7 +11,7 @@ function login(props){
         <section id="fondologin">
             <div className="feature2 feature-blue2"> 
             
-            <img src={props.hola} alt="Logo Hotelia"/>    
+            <img src={logov} alt="Logo Hotelia"/>    
             <h1>{props.hola}</h1>                                               
             <form id="loginform">
             <div className="loguito">

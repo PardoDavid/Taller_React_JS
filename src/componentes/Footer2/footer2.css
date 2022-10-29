@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media screen and (min-width: 1024px){
+.pie-pagina {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 100%;
+    background-color: #000;
+}
+
+
+
+.pie-pagina .grupo-1 .box figure {
+
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pie-pagina .grupo-1 .box2 i {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 15px;
+    margin-left: 39rem;
+    margin-top: -50rem;
+}
+
+.pie-pagina .grupo-1 .box p {
+
+    color: #efefef;
+    margin-left: 1em;
+    margin-bottom: 39px;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    margin-right: 76rem;
+    text-align: center;
+    margin-top: 4.5rem;
+ 
+}
+
+.pie-pagina .grupo-1 .box2 p {
+
+    color: #efefef;
+    margin-left: 10rem;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    margin-top: -11rem;
+    margin-bottom: -0.7rem;
+
+
+}
+
+.pie-pagina .grupo-1 .box3 p {
+    color: #efefef;
+    margin-left: 65em;
+  
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    margin-top:-10.2rem;
+
+
+}
+
+.pie-pagina .grupo-1 .red-social a {
+
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    text-align: center;
+    margin-left: 5rem;
+    margin-bottom: 28px;
+}
+}
+
+@media screen and (min-width: 320px)  and (max-width:1023px){
+
+
+    .pie-pagina {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-height: 100%;
+        background-color: #000;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    
+    .pie-pagina .grupo-1 .box figure {
+    
+        width: 100%;
+        height: 95%;
+     
+       
+    }
+    
+    
+    .pie-pagina .grupo-1 .box2 i {
+        color: #fff;
+        margin-bottom: 2rem;
+        font-size: 15px;
+        margin-left: 12rem;
+        margin-top: -50rem;
+  
+        
+    }
+    
+    .pie-pagina .grupo-1 .box p {
+    
+        color: #efefef;
+        margin-left: 5em;
+        margin-bottom: 39px;
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        margin-right: 3rem;
+        text-align: center;
+        margin-top: 4.5rem;
+     
+    }
+    
+    .pie-pagina .grupo-1 .box2 p {
+    
+        color: #efefef;
+        margin-left: -5rem;
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        margin-top: 4rem;
+        margin-bottom: -0.9rem;
+        
+    
+    
+    }
+    
+    .pie-pagina .grupo-1 .box3 p {
+        color: #efefef;
+        margin-left: 12em;
+      
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        margin-top:3.2rem;
+    
+    
+    }
+    
+    .pie-pagina .grupo-1 .red-social a {
+    
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        color: #fff;
+        text-align: center;
+        margin-left: 7rem;
+        margin-bottom: -15px;
+    }
+    }

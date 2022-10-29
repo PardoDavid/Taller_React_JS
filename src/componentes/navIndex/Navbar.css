@@ -1,0 +1,116 @@
+@media screen and (min-width:1024px) {
+    
+
+.logo3{
+    padding: 1rem;
+}
+.logo3 img{
+    width: 100%;
+    max-width: 180px;       
+}
+.logo3 i{ 
+    display: none;
+} 
+nav a:hover{
+    background-color: #0B3860;
+    width: 100%;
+}
+
+.menu{
+    background-color: var(--negro2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+}
+
+.navbar-button{
+    background-color:var(--azuloscuro);
+}  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro2);
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+  
+}
+
+.item{
+padding: 1rem;
+}
+nav a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+.logo img{
+    height: 3rem;
+}
+}
+@media screen and (min-width: 320px)  and (max-width:1023px){
+    .logo3{
+        background-color: var(--negro2);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    
+
+    .logo3 img{
+        width: 20%;
+        max-width: 20%;   
+    }
+    .logo3 i{
+        color: var(--blanco);
+        font-size: 2rem;
+        margin-left: -1rem;
+    }
+    
+    .menu{
+        background-color: rgba(1, 10, 52, 0.735);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        max-width: 100%;
+    
+
+    }
+    .menu-hr{
+        width: 80%;
+        background-color: var(--blanco);
+    }
+    .item{
+    padding: 1rem;
+    }
+    nav a{
+        color: var(--blanco);
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover{
+        background-color: #0B3860;
+        width: 100%;
+    }
+    .navbar-button{
+        background-color:transparent;
+        border: none;
+        border-radius: 3px;
+        font-size: 1em;
+        padding: 0.5rem;
+        font-family: 'Marcellus', serif;
+        color: var(--blanco);
+    }
+    MENU HAMBURGUESA
+
+    .open {
+        transform: translateY(-100em);
+    }
+
+    .outside {
+        transform: translateX(0);
+    }
+    }
+ 

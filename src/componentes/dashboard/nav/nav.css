@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media screen and (min-width:1024px) {
+
+	body {
+		margin: 0;
+		font-family: "Roboto";
+		font-size: 15px;
+		font-family: 'Marcellus';
+		background-color: #F1FAFF; 
+	}
+	
+	.logo1 {
+		z-index: 3;
+		margin-top: -23rem;
+		margin-left: 6.5rem;
+		width: 1rem;
+	   
+	}
+	
+	.im4{
+		width: 10%;
+		margin-top: -3rem;
+		margin-left: 18.2rem;
+	}
+	.imagen{
+		margin-left: 6.2rem;
+		margin-top: 0.1rem;
+		
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 12.2%;
+		background-color: #434343;
+		position: absolute;
+		height: 100.9%;
+		overflow: auto;
+		margin-top: -1.9rem;
+		min-width: 16.3%;
+	}
+	
+	.corot {
+		color: #fff;
+		font-family: 'Marcellus';
+		margin-left: 0.8rem;
+		margin-top: -28rem;
+		font-size: 15px;
+	}
+	.corot h2 {
+		color: #fff;
+		font-family: 'Marcellus';
+		margin-left: 4rem;
+		margin-top: -34rem;
+		font-size: 15px;
+	}
+	
+	li a {
+		display: block;
+		color: #fff;
+		padding: 8px 16px;
+		text-decoration: none;
+		font-size: 18px;
+		text-align: center;
+		margin-top: -2.1rem;
+		margin-left: 2rem;
+	}
+	
+	.cerrar i {
+		margin-top: 30rem;
+		margin-left: 4rem;
+		font-size: 25px;
+	}
+	
+	.cerrar a {
+		font-size: 15px;
+		color: #EFEFEF;
+		margin-left: 0.8rem;
+		text-decoration: none;
+		margin-top: 18rem;
+	}
+	
+	   
+	
+	li a:hover {
+		background-color: #555;
+		color: white;
+	}
+	
+	ul i {
+		font-size: 25px;
+		color: #fff;
+		margin-top: 15%;
+		margin-left: 2rem;
+	}
+}
+@media screen and (min-width:320px) and (max-width:1023px) {
+	.logo {
+		z-index: 3;
+		margin-top: -32rem;
+		margin-left: 2rem;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 8%;
+		background-color: #434343;
+		position: fixed;
+		height: 89%;
+		overflow: auto;
+		margin-top: -2rem;
+	}
+	
+	.corot {
+		color: #fff;
+		font-family: 'Marcellus';
+		margin-left: 10rem;
+		margin-top: -45rem;
+	}
+	
+	li a {
+		display: none;
+		color: #fff;
+		padding: 8px 16px;
+		text-decoration: none;
+		font-size: 23px;
+		text-align: center;
+		margin-top: -2.1rem;
+	}
+	
+	.cerrar i {
+		margin-top: 43rem;
+		margin-left: 1rem;
+		font-size: 25px;
+	}
+	
+	.cerrar a {
+		font-size: 18px;
+		color: #EFEFEF;
+		margin-left: 5rem;
+		text-decoration: none;
+		display: none;
+	
+	
+	
+	}
+	
+	
+	li a:hover:not(.active) {
+		background-color: #555;
+		color: white;
+	}
+	
+	ul i {
+		font-size: 25px;
+		color: #fff;
+		margin-top: 8%;
+		margin-left: 0.6rem;
+	}
+	
+	
+}
